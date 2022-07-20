@@ -785,14 +785,6 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
-"@elastic/elasticsearch@^8.2.1":
-  "integrity" "sha512-Kwerd8DfNZdBGgl7fkn+20kXkw1QePB3goTv5QwW9poo2d4VbPE0EChmh6irpXWAGsVSYiKr8x6bh8dH5YdylA=="
-  "resolved" "https://registry.npmjs.org/@elastic/elasticsearch/-/elasticsearch-8.2.1.tgz"
-  "version" "8.2.1"
-  dependencies:
-    "@elastic/transport" "^8.2.0"
-    "tslib" "^2.4.0"
-
 "@elastic/transport@^8.2.0":
   "integrity" "sha512-H/HmefMNQfLiBSVTmNExu2lYs5EzwipUnQB53WLr17RCTDaQX0oOLHcWpDsbKQSRhDAMPPzp5YZsZMJxuxPh7A=="
   "resolved" "https://registry.npmjs.org/@elastic/transport/-/transport-8.2.0.tgz"
