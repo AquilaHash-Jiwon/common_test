@@ -1,13 +1,14 @@
-import React from "react";
-import * as S from "./styles";
-import * as E from "./events";
-import ShakingAnimation from "../../assets/ShakingAnimation";
+import React from 'react';
+import * as S from './styles';
+import * as E from './events';
+import ShakingAnimation from '../../assets/ShakingAnimation';
 import {
   DotPagination,
+  FindLoading,
   FlatListWithDotPagination,
   InnerShadowBox,
   ProgressBar,
-} from "../../components";
+} from '../../components';
 
 const MainScreen = ({
   isUpdating,
@@ -32,8 +33,9 @@ const MainScreen = ({
       <S.BottomView>
         <S.CommonText>앱 테스트 입니다.</S.CommonText>
       </S.BottomView>
-      <FlatListWithDotPagination />
-      <InnerShadowBox />
+      {/* <FlatListWithDotPagination /> */}
+      {/* <InnerShadowBox /> */}
+      <FindLoading />
     </S.MainContainer>
   );
 };
