@@ -4,10 +4,9 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
-import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.analytics.Analytics;
-import com.microsoft.appcenter.crashes.Crashes;
-import com.microsoft.appcenter.distribute.Distribute;
+// import com.microsoft.appcenter.AppCenter;
+// import com.microsoft.appcenter.analytics.Analytics;
+// import com.microsoft.appcenter.crashes.Crashes;
 
 public class MainActivity extends ReactActivity {
 
@@ -45,9 +44,9 @@ public class MainActivity extends ReactActivity {
     }
   }
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    AppCenter.start(getApplication(), "073273d e-a1ae-4 b99-bd66-7d 960765 c9ee",
-        Analytics.class, Crashes.class);
-  }
+  // @Override
+  // protected void onCreate(Bundle savedInstanceState) {
+  // AppCenter.start(getApplication(), "073273d e-a1ae-4 b99-bd66-7d 960765 c9ee",
+  // Analytics.class, Crashes.class);
+  // }
 }

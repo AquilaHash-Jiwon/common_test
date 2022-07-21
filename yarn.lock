@@ -824,7 +824,7 @@
   "resolved" "https://registry.npmjs.org/@emotion/memoize/-/memoize-0.7.5.tgz"
   "version" "0.7.5"
 
-"@emotion/native@11.9.3":
+"@emotion/native@^11.9.3":
   "integrity" "sha512-hgtp6DJHYSGUzYc/3fTY8cKg4BXTCpegPgsy3URJhbJ+yIYycT4mSmgFuUiZIt5w4mENsX6H/plIo78O07VDfA=="
   "resolved" "https://registry.npmjs.org/@emotion/native/-/native-11.9.3.tgz"
   "version" "11.9.3"
@@ -838,7 +838,7 @@
   dependencies:
     "css-to-react-native" "^3.0.0"
 
-"@emotion/react@11.9.3":
+"@emotion/react@^11.9.3":
   "integrity" "sha512-g9Q1GcTOlzOEjqwuLF/Zd9LC+4FljjPjDfxSM7KmEakm+hsHXk+bYZ2q+/hTJzr0OUNkujo72pXLQvXj6H+GJQ=="
   "resolved" "https://registry.npmjs.org/@emotion/react/-/react-11.9.3.tgz"
   "version" "11.9.3"
@@ -1272,7 +1272,7 @@
     "slash" "^3.0.0"
     "xmldoc" "^1.1.2"
 
-"@react-native-community/cli-platform-android@8.0.2":
+"@react-native-community/cli-platform-android@^8.0.2":
   "integrity" "sha512-pAEkt+GULesr8FphTpaNYSmu+O1CPQ2zCXkAg4kRd0WXpq3BsVqomyDWd/eMXTkY/yYQMGl6KilU2p9r/hnfhA=="
   "resolved" "https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-8.0.2.tgz"
   "version" "8.0.2"
@@ -1496,7 +1496,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@testing-library/react-native@10.1.1":
+"@testing-library/react-native@^10.1.1":
   "integrity" "sha512-tflpI2MTOEe0Gmj0FCTYOQD8OwBYq/YpAre0QFe2IMCcMFr55h/5zvCdwB3+uUsr6Nqve+hs6poVrD3t2wwoLQ=="
   "resolved" "https://registry.npmjs.org/@testing-library/react-native/-/react-native-10.1.1.tgz"
   "version" "10.1.1"
@@ -2031,7 +2031,7 @@
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.4.3.tgz"
   "version" "4.4.3"
 
-"axios@0.27.2":
+"axios@^0.27.2":
   "integrity" "sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-0.27.2.tgz"
   "version" "0.27.2"
@@ -3112,7 +3112,7 @@
     "object.entries" "^1.1.5"
     "semver" "^6.3.0"
 
-"eslint-config-airbnb@19.0.4":
+"eslint-config-airbnb@^19.0.4":
   "integrity" "sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew=="
   "resolved" "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-19.0.4.tgz"
   "version" "19.0.4"
@@ -3158,7 +3158,7 @@
     "lodash" "^4.17.21"
     "string-natural-compare" "^3.0.1"
 
-"eslint-plugin-import@2.26.0":
+"eslint-plugin-import@^2.26.0":
   "integrity" "sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.26.0.tgz"
   "version" "2.26.0"
@@ -3184,7 +3184,7 @@
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.0.0"
 
-"eslint-plugin-jsx-a11y@6.6.0":
+"eslint-plugin-jsx-a11y@^6.6.0":
   "integrity" "sha512-kTeLuIzpNhXL2CwLlc8AHI0aFRwWHcg483yepO9VQiHzM9bZwJdzTkzBszbuPrbgGmq2rlX/FaT2fJQsjUSHsw=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.6.0.tgz"
   "version" "6.6.0"
@@ -3210,7 +3210,7 @@
   dependencies:
     "prettier-linter-helpers" "^1.0.0"
 
-"eslint-plugin-react-hooks@^4.2.0", "eslint-plugin-react-hooks@4.6.0":
+"eslint-plugin-react-hooks@^4.2.0", "eslint-plugin-react-hooks@^4.6.0":
   "integrity" "sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz"
   "version" "4.6.0"
@@ -3228,7 +3228,7 @@
     "@babel/traverse" "^7.7.4"
     "eslint-plugin-react-native-globals" "^0.1.1"
 
-"eslint-plugin-react@^7.26.1", "eslint-plugin-react@7.30.1":
+"eslint-plugin-react@^7.26.1", "eslint-plugin-react@^7.30.1":
   "integrity" "sha512-NbEvI9jtqO46yJA3wcRF9Mo0lF9T/jhdHqhCHXiXtD+Zcb98812wvokjWpU7Q4QH5edo6dmqrukxVvWWXHlsUg=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.30.1.tgz"
   "version" "7.30.1"
@@ -3286,7 +3286,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
   "version" "3.3.0"
 
-"eslint@8.19.0":
+"eslint@^8.19.0":
   "integrity" "sha512-SXOPj3x9VKvPe81TjjUJCYlV4oJjQw68Uek+AM0X4p+33dj2HY5bpTZOgnQHcG2eAm1mtCU9uNMnJi7exU/kYw=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.19.0.tgz"
   "version" "8.19.0"
@@ -6196,7 +6196,7 @@
   dependencies:
     "fast-diff" "^1.1.2"
 
-"prettier@2.7.1":
+"prettier@^2.7.1":
   "integrity" "sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g=="
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz"
   "version" "2.7.1"
@@ -6366,7 +6366,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   "version" "18.2.0"
 
-"react-native-code-push@7.0.4":
+"react-native-code-push@^7.0.4":
   "integrity" "sha512-zBCj1vUnyLCG6tt2x5rXzoyYjvgFVEpTnwJUFbs24C5TUKjRw6BJVq1bWsOQklEUWpFYoqhAaZXz/iq3pbqa7g=="
   "resolved" "https://registry.npmjs.org/react-native-code-push/-/react-native-code-push-7.0.4.tgz"
   "version" "7.0.4"
@@ -6389,7 +6389,7 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
-"react-native-device-info@10.0.1":
+"react-native-device-info@^10.0.1":
   "integrity" "sha512-4INPcRYZ+syEhRr+T3AYhBjQBGh0b+/auWKtQ6KrWMYI5Kqwf134Fi19z2QYztvwWVplthQ7CRlUufxR43BdIw=="
   "resolved" "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-10.0.1.tgz"
   "version" "10.0.1"
@@ -6737,7 +6737,7 @@
   dependencies:
     "glob" "^7.1.3"
 
-"rn-nodeify@10.3.0":
+"rn-nodeify@^10.3.0":
   "integrity" "sha512-EZB3M4M5i8yySCWF7AAZ31xU7cpdLuIKMlVxXji9t0aY8Ojy3BAyRt1sTp0OwBgy1ejShmlIu2L4f8mToJ+uvg=="
   "resolved" "https://registry.npmjs.org/rn-nodeify/-/rn-nodeify-10.3.0.tgz"
   "version" "10.3.0"
