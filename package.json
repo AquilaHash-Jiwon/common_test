@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/native": "^11.9.3",
     "@emotion/react": "^11.9.3",
+    "@react-native-community/cli-platform-android": "^8.0.2",
     "appcenter": "4.4.4",
     "appcenter-analytics": "4.4.4",
     "appcenter-crashes": "4.4.4",
